@@ -17,11 +17,12 @@ body {
 .profile-pic {
     width: 150px;
     height: 150px;
-    object-fit: cover; /* Ensures the image fits without distortion */
-    border-radius: 50%; /* Makes it perfectly circular */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Prevents distortion */
     border: 2px solid #0073e6;
     margin: 0 auto;
     display: block;
+    max-width: none; /* Override Bootstrap's img-fluid behavior */
 }
 
 /* Main Content Styling */
