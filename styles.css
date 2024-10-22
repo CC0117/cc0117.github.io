@@ -15,25 +15,26 @@ body {
     text-align: center;
 }
 
-/* Profile Container */
+/* Profile Picture Styling (Force Square and Circular Shape) */
 .profile-container {
     width: 150px;
     height: 150px;
     margin: 0 auto;
     border-radius: 50%;  /* Makes the container circular */
-    overflow: hidden;    /* Ensures the image fits within the circle */
+    overflow: hidden;    /* Ensures content fits within the container */
     border: 2px solid #0073e6;
-    display: flex;       /* Flexbox for centering */
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Profile Picture Styling */
+/* Profile Picture */
 .profile-pic {
-    width: 100%;         /* Fill the container */
-    height: 100%;        /* Maintain the height */
-    object-fit: cover;   /* Scale image to cover without stretching */
-    display: block;      /* Prevents inline gap issues */
+    width: 100%;          /* Force the image to fit the width */
+    height: auto;         /* Maintain aspect ratio */
+    min-height: 100%;     /* Ensure it fills the height */
+    object-fit: cover;    /* Cover the container without distortion */
+    display: block;
 }
 
 /* Main Content Styling */
