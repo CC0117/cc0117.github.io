@@ -13,13 +13,13 @@ body {
     border-right: 1px solid #e0e0e0;
 }
 
-/* Profile Container to Prevent Image Overflow */
+/* Profile Container */
 .profile-container {
     width: 150px;
     height: 150px;
     margin: 0 auto;
+    border-radius: 50%;
     overflow: hidden;
-    border-radius: 50%; /* Makes the image circular */
     border: 2px solid #0073e6;
 }
 
@@ -27,20 +27,5 @@ body {
 .profile-pic {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire circular area */
-    display: block;
-}
-
-/* Main Content Styling */
-.content {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Section Headers */
-h2 {
-    border-bottom: 2px solid #0073e6;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
+    object-fit: cover;
 }
