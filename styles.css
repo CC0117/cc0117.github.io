@@ -1,59 +1,114 @@
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-}
-
-.navbar {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.section-title {
-    font-size: 2rem;
+    line-height: 1.8;
     color: #333;
-    border-bottom: 2px solid #007bff;
+    background-color: #fafafa;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+/* Section Headers */
+.header {
+    font-size: 2rem;
+    color: #0073e6;
     margin-bottom: 20px;
+    border-bottom: 2px solid #0073e6;
 }
 
-/* Profile Picture */
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #007bff;
-}
-
-/* Card Styling */
-.card {
-    border: none;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card-title {
-    font-size: 1.25rem;
-    color: #007bff;
-}
-
-.card-text {
-    font-size: 0.95rem;
+.subheader {
+    font-size: 1.2rem;
     color: #555;
 }
 
-.btn-outline-primary {
-    margin-top: 10px;
+/* Projects and Publications */
+.project, .publication {
+    margin-bottom: 40px;
 }
 
-.btn-primary {
-    background-color: #007bff;
-    border: none;
+.project h3, .publication h3 {
+    font-size: 1.5rem;
+    color: #0073e6;
+    margin-bottom: 10px;
 }
 
-.btn-primary:hover {
-    background-color: #0056b3;
+.project p, .publication p {
+    margin: 0 0 10px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+/* Links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
 }
