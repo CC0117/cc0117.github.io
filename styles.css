@@ -1,121 +1,59 @@
-/* Global Styles */
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-/* Sidebar Styling */
-.sidebar {
-    height: 100vh;
-    padding: 30px;
-    border-right: 1px solid #e0e0e0;
-    background-color: #ffffff;
-    text-align: center;
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Profile Picture Styling (Force Square and Circular Shape) */
-.profile-container {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    border-radius: 50%;  /* Makes the container circular */
-    overflow: hidden;    /* Ensures content fits within the container */
-    border: 2px solid #0073e6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section-title {
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 20px;
 }
 
 /* Profile Picture */
 .profile-pic {
-    width: 100%;          /* Force the image to fit the width */
-    height: auto;         /* Maintain aspect ratio */
-    min-height: 100%;     /* Ensure it fills the height */
-    object-fit: cover;    /* Cover the container without distortion */
-    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
 }
 
-/* Main Content Styling */
-.content {
-    background-color: #fdfdfd;
-    min-height: 100vh;
-}
-
-/* Section Titles */
-h2 {
-    border-bottom: 2px solid #0073e6;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    color: #333333;
-}
-
-/* Project Image Styling */
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-/* List Styling */
-ul {
-    padding-left: 20px;
-}
-
-/* Links */
-a {
-    color: #0073e6;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Button Styling */
-button {
-    background-color: #0073e6;
-    color: white;
+/* Card Styling */
+.card {
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-button:hover {
-    background-color: #005bb5;
+.card-title {
+    font-size: 1.25rem;
+    color: #007bff;
 }
 
-/* Featured Publication Styling */
-.featured-publication {
-    background-color: #f0f8ff;  /* Light blue background for highlight */
-    border: 2px solid #0073e6; /* Accent border to emphasize */
-    border-radius: 8px;
-    padding: 15px;
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
 }
 
-/* Star Icon Styling */
-.featured-icon {
-    color: gold;
-    font-size: 1.5rem;
-    margin-right: 8px;
+.btn-outline-primary {
+    margin-top: 10px;
 }
 
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .sidebar {
-        height: auto;
-        border-right: none;
-        border-bottom: 1px solid #e0e0e0;
-    }
-
-    .content {
-        padding: 20px;
-    }
-
-    .profile-container {
-        width: 120px;
-        height: 120px;
-    }
+.btn-primary:hover {
+    background-color: #0056b3;
 }
