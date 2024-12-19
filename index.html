@@ -4,84 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yanming Chen - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#publications">Research</a></li>
-        </ul>
-    </nav>
-
-    <!-- Main Content -->
-    <div class="container">
-        <!-- About Section -->
-        <section id="about">
-            <h1 class="header">Yanming Chen</h1>
-            <p class="subheader">📍 Ningbo, China</p>
-            <p>📧 <a href="mailto:Yanming0117@outlook.com">Yanming0117@outlook.com</a></p>
-            <p>
-                I am a Computer Science graduate from the University of Nottingham Ningbo China (UNNC). My research focuses on applying computer vision and machine learning to enhance medical diagnostics and patient care, particularly in biomedical image computing. My interests also extend to reinforcement learning applications in UAV communication and path planning, as well as AGV operation and scheduling.
-            </p>
-            <p><a href="Yanming_CV.pdf" target="_blank" class="btn">Download My CV</a></p>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education">
-            <h2 class="header">Education</h2>
-            <p><strong>University of Nottingham Ningbo China (UNNC)</strong></p>
-            <p>B.Sc. in Computer Science with Artificial Intelligence (First Class Honours)</p>
-            <p><em>2020 – 2024</em></p>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2 class="header">Projects</h2>
-            <div class="project">
-                <h3>IoT-based Health Monitoring System for Elderly Users</h3>
-                <p><strong>Smart Medicine Lab, UNNC</strong></p>
-                <p><strong>Poster:</strong> <a href="SMPoster.pdf" target="_blank">Poster PDF</a></p>
-                <p><strong>Software Copyrights:</strong></p>
-                <ul>
-                    <li><a href="SM_SC1.pdf" target="_blank">Smart Health Home Edge Computing System</a></li>
-                    <li><a href="SM_SC2.pdf" target="_blank">Smart Health Home Personal Health Hub Mobile Application</a></li>
-                </ul>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar Section -->
+            <div class="col-md-3 sidebar text-center bg-light">
+                <div class="profile-container">
+                    <img src="profile.jpg" alt="Yanming Chen" class="profile-pic">
+                </div>
+                <h1>Yanming Chen</h1>
+                <p>📍 Ningbo, China</p>
+                <p>📧 <a href="mailto:Yanming0117@outlook.com">Yanming0117@outlook.com</a></p>
             </div>
-            <div class="project">
-                <h3>Virtual Reality Cybersickness Real-Time Detection and Feedback System</h3>
-                <p><strong>Intelligent Human-centered Innovation Lab, UNNC</strong></p>
-                <p><strong>Papers:</strong></p>
-                <ul>
-                    <li><a href="PDM_Paper.pdf" target="_blank">Effects of Social Interaction on Virtual Reality Cybersickness</a> <em>(Acknowledgment Mention)</em></li>
-                    <li>The Efficacy of Biofeedback in Monitoring VR Cybersickness in the Context of Remote Collaboration <em>(Fourth Author, Under Review at CSCW 2025)</em></li>
-                </ul>
-                <p><strong>Software Copyright:</strong></p>
-                <ul>
-                    <li><a href="PDM_SC.pdf" target="_blank">Real-Time Detection and Feedback System for Motion Sickness in Virtual Reality Devices Using Physiological Data Machine Learning</a></li>
-                </ul>
-            </div>
-        </section>
 
-        <!-- Research Section -->
-        <section id="publications">
-            <h2 class="header">Research</h2>
-            <div class="publication">
-                <h3>MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation</h3>
-                <p><strong>Accepted at ACM Multimedia Asia 2024</strong></p>
-                <p>A hybrid CNN-Mamba model for 3D cerebrovascular segmentation, achieving a Dice score of 0.87 on the IXI dataset.</p>
-                <p><a href="MambaVesselNet.pdf" target="_blank">Manuscript PDF</a></p>
+            <!-- Main Content Section -->
+            <div class="col-md-9 content p-5">
+                <section id="about" class="mb-5">
+                    <h2>About Me</h2>
+                    <p>
+                        I am a Computer Science graduate from the University of Nottingham Ningbo China (UNNC). My research focuses on applying computer vision and machine learning to enhance medical diagnostics and patient care, particularly in biomedical image computing. My interests also extend to reinforcement learning applications in UAV communication and path planning, as well as AGV operation and scheduling. I am currently applying for a graduate degree in Computer Science or Biomedical Engineering.
+                    </p>
+                    <p>
+                        <a href="Yanming_CV.pdf" target="_blank" class="text-primary">Download my CV</a>
+                    </p>
+                </section>
+
+                <section id="education" class="mb-5">
+                    <h2>Education</h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <strong>University of Nottingham Ningbo China (UNNC)</strong><br>
+                            B.Sc. in Computer Science with Artificial Intelligence (First Class Honours)<br>
+                            <em>2020 – 2024</em>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="projects" class="mb-5">
+                    <h2>Projects</h2>
+                    <div class="row align-items-center mb-4">
+                        <div class="col-md-3">
+                            <img src="SM_Pic1.png" alt="Smart Medicine Lab Poster" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-9">
+                            <h5>IoT-based Health Monitoring System for Elderly Users</h5>
+                            <p><strong>Smart Medicine Lab, UNNC</strong></p>
+                            <p><strong>Poster:</strong> <a href="SMPoster.pdf" target="_blank" class="text-primary">Poster PDF</a></p>
+                            <p><strong>Software Copyrights:</strong></p>
+                            <ul>
+                                <li><a href="SM_SC1.pdf" target="_blank" class="text-primary">Smart Health Home Edge Computing System</a></li>
+                                <li><a href="SM_SC2.pdf" target="_blank" class="text-primary">Smart Health Home Personal Health Hub Mobile Application</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center mb-4">
+                        <div class="col-md-3">
+                            <img src="PDM_Pic.png" alt="Motion Sickness Research" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-9">
+                            <h5>Virtual Reality Cybersickness Real-Time Detection and Feedback System</h5>
+                            <p><strong>Intelligent Human-centered Innovation Lab, UNNC</strong></p>
+                            <p><strong>Papers:</strong></p>
+                            <ul>
+                                <li><a href="PDM_Paper.pdf" target="_blank" class="text-primary">Effects of Social Interaction on Virtual Reality Cybersickness</a> <em>(Acknowledgment Mention)</em></li>
+                                <li>The Efficacy of Biofeedback in Monitoring VR Cybersickness in the Context of Remote Collaboration <em>(Fourth Author, Under Review at CSCW 2025)</em></li>
+                            </ul>
+                            <p><strong>Software Copyright:</strong></p>
+                            <ul>
+                                <li><a href="PDM_SC.pdf" target="_blank" class="text-primary">Real-Time Detection and Feedback System for Motion Sickness in Virtual Reality Devices Using Physiological Data Machine Learning</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="publications" class="mb-5">
+                    <h2>Research</h2>
+                    
+                    <!-- Accepted Research -->
+                    <div class="row align-items-center mb-4">
+                        <div class="col-md-3">
+                            <img src="MambaVesselNet.png" alt="MambaVesselNet" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-9">
+                            <h5>MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation</h5>
+                            <p><strong>Yanming Chen</strong> et al.</p>
+                            <p><em>Accepted at ACM Multimedia Asia 2024</em></p>
+                            <p><a href="MambaVesselNet.pdf" target="_blank" class="text-primary">Manuscript PDF</a></p>
+                        </div>
+                    </div>
+
+                    <!-- Other Accepted Research -->
+                    <div class="row align-items-center mb-4">
+                        <div class="col-md-3">
+                            <img src="IWAIT_Paper_Pic.png" alt="IWAIT Paper Poster" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-9">
+                            <h5>Multi-Modality Semi-Supervised Learning for Ophthalmic Biomarkers Detection</h5>
+                            <p><strong>Yanming Chen</strong> et al.</p>
+                            <p><em>Accepted at IWAIT 2024</em></p>
+                            <p><a href="IWAIT_Paper.pdf" target="_blank" class="text-primary">Manuscript PDF</a> | 
+                            <a href="IWAIT_Poster.pdf" target="_blank" class="text-primary">Poster PDF</a></p>
+                        </div>
+                    </div>
+
+                    <!-- Research Under Review -->
+                    <div class="row align-items-center mb-4">
+                        <div class="col-md-3">
+                            <img src="UAV2.jpg" alt="UAV Research Project" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-9">
+                            <h5>A Multi-Objective Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments</h5>
+                            <p>Yanming Chen and Saeid Pourroostaei Ardakani</p>
+                            <p><em>Under Review at IEEE Transactions on Vehicular Technology</em></p>
+                            <p><a href="FAR-UAV-2024.pdf" target="_blank" class="text-primary">Preprint (Under Review)</a></p>
+                        </div>
+                    </div>
+
+                </section>                
             </div>
-            <div class="publication">
-                <h3>Multi-Modality Semi-Supervised Learning for Ophthalmic Biomarkers Detection</h3>
-                <p><strong>Accepted at IWAIT 2024</strong></p>
-                <p>Semi-supervised learning framework combining OCT imaging and clinical data, achieving an F1-score of 0.71.</p>
-                <p><a href="IWAIT_Paper.pdf" target="_blank">Manuscript PDF</a> | <a href="IWAIT_Poster.pdf" target="_blank">Poster PDF</a></p>
-            </div>
-        </section>
+        </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,96 +1,65 @@
-/* General Styling */
+/* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    line-height: 1.8;
-    color: #333;
-    background-color: #fafafa;
 }
 
-/* Navigation Bar */
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    z-index: 1000;
-    padding: 10px 0;
+/* Sidebar Styling */
+.sidebar {
+    height: 100vh;
+    padding: 30px;
+    border-right: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    text-align: center;
 }
 
-.nav-links {
+/* Profile Picture Styling (Force Square and Circular Shape) */
+.profile-container {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;  /* Makes the container circular */
+    overflow: hidden;    /* Ensures content fits within the container */
+    border: 2px solid #0073e6;
     display: flex;
     justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    align-items: center;
 }
 
-.nav-links li {
-    margin: 0 15px;
+/* Profile Picture */
+.profile-pic {
+    width: 100%;          /* Force the image to fit the width */
+    height: auto;         /* Maintain aspect ratio */
+    min-height: 100%;     /* Ensure it fills the height */
+    object-fit: cover;    /* Cover the container without distortion */
+    display: block;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: #0073e6;
-    font-weight: bold;
-    font-size: 1rem;
+/* Main Content Styling */
+.content {
+    background-color: #fdfdfd;
+    min-height: 100vh;
 }
 
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
-/* Main Container */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    padding-top: 100px;
-}
-
-/* Section Headers */
-.header {
-    font-size: 2rem;
-    color: #0073e6;
-    margin-bottom: 20px;
+/* Section Titles */
+h2 {
     border-bottom: 2px solid #0073e6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333333;
 }
 
-.subheader {
-    font-size: 1.2rem;
-    color: #555;
+/* Project Image Styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
-/* Projects and Publications */
-.project, .publication {
-    margin-bottom: 40px;
-}
-
-.project h3, .publication h3 {
-    font-size: 1.5rem;
-    color: #0073e6;
-    margin-bottom: 10px;
-}
-
-.project p, .publication p {
-    margin: 0 0 10px;
-}
-
-/* Buttons */
-.btn {
-    display: inline-block;
-    background-color: #0073e6;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.btn:hover {
-    background-color: #005bb5;
+/* List Styling */
+ul {
+    padding-left: 20px;
 }
 
 /* Links */
@@ -103,12 +72,50 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Lists */
-ul {
-    margin: 0;
-    padding-left: 20px;
+/* Button Styling */
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-ul li {
-    margin-bottom: 5px;
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Featured Publication Styling */
+.featured-publication {
+    background-color: #f0f8ff;  /* Light blue background for highlight */
+    border: 2px solid #0073e6; /* Accent border to emphasize */
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* Star Icon Styling */
+.featured-icon {
+    color: gold;
+    font-size: 1.5rem;
+    margin-right: 8px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .profile-container {
+        width: 120px;
+        height: 120px;
+    }
 }
