@@ -23,11 +23,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yanming Chen"
-  pronouns         : # example: "she/her"  
+  # pronouns         : # example: "she/her"  
   bio              : "BSc in Computer Science @ UNNC"
   location         : "Ningbo China"
   employer         : "University of Nottingham"
-  uri              : # URL
+  # uri              : # URL
   email            : "Yanming0117@outlook.com" 
 
   # Academic websites
