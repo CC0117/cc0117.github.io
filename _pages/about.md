@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Hi there, this is Yanming! 👋"
-author_profile: true
+author_profile: True
 redirect_from: 
   - /about/
   - /about.html
