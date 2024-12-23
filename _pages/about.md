@@ -16,18 +16,18 @@ I obtained my BSc in Computer Science with Artificial Intelligence from the [Uni
 
 ## Publications
 
-- **MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation**  
+- [**MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation**](/publication/2024-12-3-mamba-vesselnet)  
   **Yanming Chen**, Ziyu Liu, Xiangjian He  
   *ACM Multimedia Asia 2024*. ([paper](MambaVesselNet.pdf))  
 
-- **Multi-Modality Semi-Supervised Learning for Ophthalmic Biomarkers Detection**  
+- [**Multi-Modality Semi-Supervised Learning for Ophthalmic Biomarkers Detection**](/publication/2024-01-10-multimodality-learning)  
   **Yanming Chen**, Chenxi Niu, Chen Ye, Shengji Jin, Yue Li, Chi Xu, Keyi Liu, Haowei Gao, Jingxi Hu, Yuanhao Zou, Huizhong Zheng, Xiangjian He  
   *IWAIT 2024*. ([paper](IWAIT_Paper.pdf) / [poster](IWAIT_Poster.pdf))  
 
-- **A Multi-Objective Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments**  
+- [**A Multi-Objective Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments**](/publication/2024-01-20-uav-path-planning)  
   **Yanming Chen**, Saeid Pourroostaei Ardakani  
   *Under Review at IEEE Transactions on Vehicular Technology*. ([preprint](FAR-UAV-2024.pdf))  
 
-- **The Efficacy of Biofeedback in Monitoring VR Cybersickness in the Context of Remote Collaboration**  
+- [**The Efficacy of Biofeedback in Monitoring VR Cybersickness in the Context of Remote Collaboration**](/publication/2024-01-30-vr-cybersickness)  
   Yifan Yang, Xu Sun, Yaorun Zhang, Junsong Zhu, **Yanming Chen**, Chen Ye, Sheng Zhang, Canjun Yang  
   *Under Review at CSCW 2025*.  
