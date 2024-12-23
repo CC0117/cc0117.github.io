@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I obtained my BSc in Computer Science with Artificial Intelligence from the [University of Nottingham Ningbo China](https://www.nottingham.edu.cn/). I am currently on a gap year, working as a part-time Research Assistant at the CVIP Lab, collaborating closely with [Prof. Xijiang He](https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&hl=en) and [Dr. Saeid Pourroostaei Ardakani](https://scholar.google.com/citations?user=3OeHr8gAAAAJ&hl=en).
+I obtained my BSc in Computer Science with Artificial Intelligence from the [University of Nottingham Ningbo China](https://www.nottingham.edu.cn/). I am currently on a gap year, as a part-time Research Assistant at the CVIP Lab, worked closely with [Prof. Xijiang He](https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&hl=en) and [Dr. Saeid Pourroostaei Ardakani](https://scholar.google.com/citations?user=3OeHr8gAAAAJ&hl=en).
 
 ### **Research Interests**
 1. **Biomedical Image Analysis:**.
