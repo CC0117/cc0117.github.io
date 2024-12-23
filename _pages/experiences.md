@@ -12,7 +12,7 @@ author_profile: true
 ## Internships
 
 ### IoT-Based Health Monitoring System for Elderly Users  
-Smart Medicine Lab, University of Nottingham Ningbo China
+Smart Medicine Lab, UNNC<br>
 *June 2022 – August 2022*  
 - Developed an Android app with an elder-friendly interface for real-time health data monitoring, integrating IoT devices like blood pressure monitors and weight scales.
 - Designed a back-end health data management system using MQTT protocol for efficient communication, which contributed to two software copyrights and a poster presentation at the UNNC Interdisciplinary Research and Knowledge Exchange Conference.  
@@ -23,7 +23,7 @@ Smart Medicine Lab, University of Nottingham Ningbo China
 
 
 ### Virtual Reality Cybersickness Real-Time Detection System  
-Intelligent Human-Centered Innovation Lab, University of Nottingham Ningbo China
+Intelligent Human-Centered Innovation Lab, UNNC<br>
 *June 2021 – August 2021*  
 - Designed a VR cybersickness detection system integrating biofeedback visualization to improve user experience.  
 - Developed a machine learning pipeline for real-time monitoring of physiological data, enhancing accuracy and responsiveness.  
