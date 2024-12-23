@@ -4,8 +4,8 @@ collection: publications
 category: conferences
 permalink: /publication/2024-12-3-mamba-vesselnet
 excerpt: '**Yanming Chen**, Ziyu Liu, Xiangjian He'
-date: 2024-12-3
-venue: 'ACM Multimedia Asia'
+# date: 2024-12-3
+venue: 'ACM Multimedia Asia 2024'
 paperurl: '/files/MambaVesselNet.pdf'
 # citation: 'Yanming Chen, Ziyu Liu, Xiangjian He. (2024). &quot;MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation.&quot; <i>ACM Multimedia Asia 2024</i>.'
 ---
