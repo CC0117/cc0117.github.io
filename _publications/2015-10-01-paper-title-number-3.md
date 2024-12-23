@@ -6,7 +6,7 @@ permalink: /publication/2024-01-20-uav-path-planning
 excerpt: '**Yanming Chen**, Saeid Pourroostaei Ardakani'
 date: 2024-8-20
 venue: 'IEEE Transactions on Vehicular Technology (Under Review)'
-paperurl: '/files/UAVPathPlanning.pdf'
+paperurl: '/files/FAR-UAV-2024.pdf'
 ---
 
 ### **Abstract**

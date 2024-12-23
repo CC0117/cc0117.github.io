@@ -5,8 +5,8 @@ category: manuscripts
 permalink: /publication/2024-01-30-vr-cybersickness
 excerpt: 'Yifan Yang, Xu Sun, Yaorun Zhang, Junsong Zhu, **Yanming Chen**, Chen Ye, Sheng Zhang, Canjun Yang'
 date: 2024-01-30
-venue: 'CSCW 2025 (Under Review)'
-paperurl: '/files/VRCybersickness.pdf'
+venue: 'ACM Conference on Computer-Supported Cooperative Work and Social Computing 2025 (Under Review)'
+# paperurl: '/files/VRCybersickness.pdf'
 ---
 
 ### **Abstract**

@@ -6,7 +6,7 @@ permalink: /publication/2024-01-10-multimodality-learning
 excerpt: '**Yanming Chen**, Chenxi Niu, Chen Ye, Shengji Jin, Yue Li, Chi Xu, Keyi Liu, Haowei Gao, Jingxi Hu, Yuanhao Zou, Huizhong Zheng, Xiangjian He'
 date: 2024-01-6
 venue: 'International Workshop on Advanced Image Technology (IWAIT) 2024'
-paperurl: '/files/MultiModalityLearning.pdf'
+paperurl: '/files/IWAIT_Paper'
 ---
 
 ### **Abstract**
