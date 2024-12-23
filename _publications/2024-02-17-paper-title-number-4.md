@@ -3,7 +3,7 @@ title: "The Efficacy of Biofeedback in Monitoring VR Cybersickness in the Contex
 collection: publications
 category: manuscripts
 permalink: /publication/2024-01-30-vr-cybersickness
-excerpt: '**Yifan Yang**, Xu Sun, Yaorun Zhang, Junsong Zhu, **Yanming Chen**, Chen Ye, Sheng Zhang, Canjun Yang'
+excerpt: 'Yifan Yang, Xu Sun, Yaorun Zhang, Junsong Zhu, **Yanming Chen**, Chen Ye, Sheng Zhang, Canjun Yang'
 date: 2024-01-30
 venue: 'CSCW 2025 (Under Review)'
 paperurl: '/files/VRCybersickness.pdf'
