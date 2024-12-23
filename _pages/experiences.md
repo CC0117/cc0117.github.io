@@ -5,13 +5,13 @@ permalink: /experiences/
 author_profile: true
 ---
 
-### Education Background
+## Education Background
 
 - **B.S. in Computer Science with Artificial Intelligence**, University of Nottingham Ningbo China, 2020 - 2024
 
-### Internships
+## Internships
 
-#### IoT-Based Health Monitoring System for Elderly Users  
+### IoT-Based Health Monitoring System for Elderly Users  
 **Smart Medicine Lab, University of Nottingham Ningbo China**  
 *June 2022 – August 2022*  
 - Developed an Android app with an elder-friendly interface for real-time health data monitoring, integrating IoT devices like blood pressure monitors and weight scales.
@@ -22,7 +22,7 @@ author_profile: true
   - [Smart Health Home Personal Health Hub Mobile Application](files/SM_SC2.pdf)
 
 
-#### Virtual Reality Cybersickness Real-Time Detection System  
+### Virtual Reality Cybersickness Real-Time Detection System  
 **Intelligent Human-Centered Innovation Lab, University of Nottingham Ningbo China**  
 *June 2021 – August 2021*  
 - Designed a VR cybersickness detection system integrating biofeedback visualization to improve user experience.  
