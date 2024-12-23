@@ -1,11 +1,11 @@
 ---
 title: "MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2024-12-3-mamba-vesselnet
-excerpt: 'MambaVesselNet proposes a hybrid CNN-Mamba model for 3D cerebrovascular segmentation, achieving state-of-the-art performance on public datasets.'
+excerpt: '**Yanming Chen**, Ziyu Liu, Xiangjian He'
 date: 2024-12-3
-venue: 'ACM Multimedia Asia 2024'
+venue: 'ACM Multimedia Asia'
 paperurl: '/files/MambaVesselNet.pdf'
 # citation: 'Yanming Chen, Ziyu Liu, Xiangjian He. (2024). &quot;MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation.&quot; <i>ACM Multimedia Asia 2024</i>.'
 ---
