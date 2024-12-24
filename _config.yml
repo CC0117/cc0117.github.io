@@ -22,7 +22,7 @@ repository               : "CC0117/cc0117.github.io"
 
 author:
   # Biographic information
-  avatar           : "/files/profile.jpg"
+  avatar           : "profile.jpg"
   name             : "Yanming Chen"
   pronouns         : # example: "she/her"  
   bio              : "BSc in Computer Science @ UNNC"
