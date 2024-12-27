@@ -34,7 +34,7 @@ Intelligent Human-Centered Innovation Lab, UNNC<br>
 
 When I'm not coding or studying, I enjoy staying active! 🏃‍♂️🌟
 
-- **🏅 Member**, Yunnan Plateau Leopard Club, University of Nottingham Ningbo China
+- **🏅 Member**, Yunnan Plateau Leopard Football Club, UNNC Football Excel Team
 - **⚽ [National Level 2 Football Athlete](/files/football_certificate.pdf)**
 - **⛰️** Enjoy mountaineering and hiking
 - **🪂** Parachuting enthusiast
