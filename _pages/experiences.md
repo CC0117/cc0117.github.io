@@ -29,3 +29,13 @@ Intelligent Human-Centered Innovation Lab, UNNC<br>
 - Developed a machine learning pipeline for real-time monitoring of physiological data, enhancing accuracy and responsiveness.  
 - **Software Copyrights**:  
   - [Real-Time VR Cybersickness Detection System](/files/PDM_SC.pdf)  
+
+## Hobbies 🎉
+
+When I'm not coding or studying, I love staying active and trying out new adventures! 🏃‍♂️🌟
+
+- **🏅 Member**, Yunnan Plateau Leopard Club, University of Nottingham Ningbo China
+- **⚽ [National Level 2 Football Athlete](files/football_certificate.pdf)**
+- **⛰️** Enjoy mountaineering and hiking
+- **🪂** Parachuting enthusiast
+- **🤿** Certified OW diver
