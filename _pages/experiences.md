@@ -32,7 +32,7 @@ Intelligent Human-Centered Innovation Lab, UNNC<br>
 
 ## Hobbies 🎉
 
-When I'm not coding or studying, I love staying active and trying out new adventures! 🏃‍♂️🌟
+When I'm not coding or studying, I enjoy staying active! 🏃‍♂️🌟
 
 - **🏅 Member**, Yunnan Plateau Leopard Club, University of Nottingham Ningbo China
 - **⚽ [National Level 2 Football Athlete](files/football_certificate.pdf)**
