@@ -14,6 +14,10 @@ I obtained my BSc in Computer Science with Artificial Intelligence from the [Uni
 2. General-Purpose Vision Architectures: Exploring transformer-inspired models to understand how overall architectural design, rather than specific token-mixing mechanisms, drives performance in medical image segmentation task and beyond.  
 3. (Deep) Reinforcement Learning: I am also interested in (deep) reinforcement learning and its various applications.
 
+## **News** 📢
+
+- **[Feb 2025]** Invited to submit *MambaVesselNet* to a Special Issue of *Pattern Analysis and Applications (Springer)*!
+
 ## Publications
 
 - [**MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation**](/publication/2024-12-3-mamba-vesselnet)  
