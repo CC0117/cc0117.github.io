@@ -15,7 +15,10 @@ I obtained my BSc in Computer Science with Artificial Intelligence from the [Uni
 
 ## **News** 📢
 
-- **[Feb 2025]** Invited to submit *MambaVesselNet* to a Special Issue of *Pattern Analysis and Applications (Springer)*.
+- **[Feb 2025]** Invited to submit MambaVesselNet to a Special Issue of ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM).
+
+<!-- - **[Jul 2025]** Received a minor revision decision for MambaVesselNet++ from ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM). -->
+
 
 ## Publications
 
