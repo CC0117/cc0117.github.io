@@ -20,7 +20,7 @@ I obtained my BSc in Computer Science with Artificial Intelligence from the [Uni
 <!-- - **[Jul 2025]** Received a minor revision decision for MambaVesselNet++ from ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM). -->
 
 
-## Publications
+## **Publications**
 
 - [**MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation**](/publication/2024-12-3-mamba-vesselnet)  
   **Yanming Chen**, Ziyu Liu, Xiangjian He  
