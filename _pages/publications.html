@@ -29,7 +29,7 @@ author_profile: true
 
       <li>
         <b><a href="{{ post.url | relative_url }}">{{ post.title }}</a></b><br/>
-        {% if post.excerpt %}{{ post.excerpt }}.<br/>{% endif %}
+        {% if post.excerpt %}{{ post.excerpt | markdownify }}<br/>{% endif %}
         {% if post.venue %}<i>{{ post.venue }}</i>.{% endif %}
         {% if post.paperurl %} <a href="{{ post.paperurl }}" target="_blank">[PDF]</a>{% endif %}
       </li>
