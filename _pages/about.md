@@ -7,12 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I obtained my BSc in Computer Science with Artificial Intelligence from the [University of Nottingham Ningbo China](https://www.nottingham.edu.cn/). I am currently on a gap year, working as a part-time Research Assistant at the CVIP Lab, my research interests lie in biomedical image analysis and AI for healthcare. I've been working closely with [Prof. Xiangjiang He](https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&hl=en) and [Dr. Saeid Pourroostaei Ardakani](https://scholar.google.com/citations?user=3OeHr8gAAAAJ&hl=en).
+I obtained my BSc in Computer Science with Artificial Intelligence from the [University of Nottingham Ningbo China](https://www.nottingham.edu.cn/). I am an incoming M.S. student in Health Informatics at Yale University.  My research interests lie in biomedical image analysis and AI applications for healthcare. Previously, I worked as a part-time Research Assistant at the CVIP Lab, collaborating closely with [Prof. Xiangjiang He](https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&hl=en) and [Dr. Saeid Pourroostaei Ardakani](https://scholar.google.com/citations?user=3OeHr8gAAAAJ&hl=en).
 
 ## **Research Interests**
 1. Biomedical Image Analysis.
 2. General-Purpose Vision Architectures: Exploring transformer-inspired models to understand how overall architectural design, rather than specific token-mixing mechanisms, drives performance in medical image segmentation task and beyond.  
-3. (Deep) Reinforcement Learning: I am also interested in (deep) reinforcement learning and its various applications.
 
 ## **News** 📢
 

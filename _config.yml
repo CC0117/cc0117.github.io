@@ -25,11 +25,11 @@ author:
   avatar           : "profile.jpg"
   name             : "Yanming Chen"
   pronouns         : # example: "she/her"  
-  bio              : "BSc in Computer Science @ UNNC"
-  location         : "Ningbo China"
-  employer         : "University of Nottingham"
+  bio              : "Incoming M.S. in Health Informatics @ Yale"
+  location         : "New Haven, CT"
+  employer         : "Yale University"
   uri              : # URL
-  email            : "Yanming0117@outlook.com" 
+  email            : "yanming.chen@yale.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
