@@ -17,6 +17,9 @@ I obtained my BSc in Computer Science with Artificial Intelligence from the [Uni
 
 - **[Feb 2025]** Invited to submit MambaVesselNet to a Special Issue of ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM).
 
+- **[Jul 2025]** *MambaVesselNet++: A Hybrid CNN-Mamba Architecture for Medical Image Segmentation* accepted for publication in ACM TOMM. 🎉  
+
+
 <!-- - **[Jul 2025]** Received a minor revision decision for MambaVesselNet++ from ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM). -->
 
 
