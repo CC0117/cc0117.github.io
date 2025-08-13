@@ -10,7 +10,7 @@ redirect_from:
 I graduated with a BSc in Computer Science with Artificial Intelligence from the University of Nottingham Ningbo China. I'm excited to begin my journey as an M.S. student in Health Informatics at Yale University this fall. My current research revolves around biomedical image analysis and AI-driven solutions for healthcare. Previously, I spent time as a Research Assistant at the CVIP Lab, working closely with [Prof. Xiangjian He](https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&hl=en) and [Dr. Saeid Pourroostaei Ardakani](https://scholar.google.com/citations?user=3OeHr8gAAAAJ&hl=en).
 
 ## **Research Interests**
-1. Biomedical Image Analysis
+1. Biomedical Image Analysis.
 2. General-Purpose Vision Architectures: Exploring transformer-inspired models to understand how overall architectural design, rather than specific token-mixing mechanisms, drives performance in medical image segmentation task and beyond.  
 
 ## **News** 📢
