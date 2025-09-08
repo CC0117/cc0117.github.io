@@ -7,11 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing an M.S. in Health Informatics at Yale University, after completing my BSc in Computer Science at the University of Nottingham Ningbo China. My current research revolves around biomedical image analysis and AI-driven solutions for healthcare. Previously, I spent time as a Research Assistant at the CVIP Lab, working closely with [Prof. Xiangjian He](https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&hl=en) and [Dr. Saeid Pourroostaei Ardakani](https://scholar.google.com/citations?user=3OeHr8gAAAAJ&hl=en).
+I am currently pursuing an M.S. in Health Informatics at Yale University. Before Yale, I received my B.Sc. in Computer Science from the University of Nottingham Ningbo China. Previously, I worked as a Research Assistant in the CVIP Lab, where I collaborated with [Prof. Xiangjian He](https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&hl=en) and [Dr. Saeid Pourroostaei Ardakani](https://scholar.google.com/citations?user=3OeHr8gAAAAJ&hl=en).  
 
+My research focuses on biomedical image analysis and AI-driven solutions for healthcare. I am particularly interested in developing general-purpose vision architectures and clinical informatics methods that can advance medical diagnostics and healthcare accessibility.  
+
+<!-- 
 ## **Research Interests**
 1. Biomedical Image Analysis.
-2. General-Purpose Vision Architectures: Exploring transformer-inspired models to understand how overall architectural design, rather than specific token-mixing mechanisms, drives performance in medical image segmentation task and beyond.  
+2. General-Purpose Vision Architectures: Exploring transformer-inspired models to understand how overall architectural design, rather than specific token-mixing mechanisms, drives performance in medical image segmentation task and beyond.   -->
 
 ## **News** 📢
 
