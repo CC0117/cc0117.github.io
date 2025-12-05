@@ -38,4 +38,4 @@ When I'm not coding or studying, I enjoy staying active! 🏃‍♂️🌟
 - **⚽ [National Level 2 Football Athlete](/files/football_certificate.pdf)**
 - **⛰️** Enjoy mountaineering and hiking
 - **🪂** Parachuting enthusiast
-- **🤿** Certified OW diver
+<!-- - **🤿** Certified OW diver -->

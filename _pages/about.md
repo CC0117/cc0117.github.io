@@ -42,8 +42,8 @@ My research focuses on biomedical image analysis and AI-driven solutions for hea
 
 - [**A Multi-Objective Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments**](/publication/2024-01-20-uav-path-planning)  
   **Yanming Chen**, Saeid Pourroostaei Ardakani  
-  *Under Review at IEEE Transactions on Vehicular Technology*. ([preprint](files/FAR-UAV-2024.pdf))  
+  *Under Review at IEEE Transactions on Transactions on Sustainable Computing*. ([preprint](files/FAR-UAV-2024.pdf))  
 
 - [**The Efficacy of Biofeedback in Monitoring VR Cybersickness in the Context of Remote Collaboration**](/publication/2024-01-30-vr-cybersickness)  
   Yifan Yang, Xu Sun, Yaorun Zhang, Junsong Zhu, **Yanming Chen**, Chen Ye, Sheng Zhang, Canjun Yang  
-  *Under Review at CSCW 2025*.  
+  <!-- *Under Review at CSCW 2025*.   -->
