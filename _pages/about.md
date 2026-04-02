@@ -22,6 +22,8 @@ My research focuses on biomedical image analysis and AI-driven solutions for hea
 
 - **[Jul 2025]** *MambaVesselNet++: A Hybrid CNN-Mamba Architecture for Medical Image Segmentation* accepted for publication in ACM TOMM. 🎉  
 
+- **[Mar 2026]** *A Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments* published in *IEEE Transactions on Sustainable Computing*. 🎉  
+
 
 <!-- - **[Jul 2025]** Received a minor revision decision for MambaVesselNet++ from ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM). -->
 
@@ -40,9 +42,9 @@ My research focuses on biomedical image analysis and AI-driven solutions for hea
   **Yanming Chen**, Chenxi Niu, Chen Ye, Shengji Jin, Yue Li, Chi Xu, Keyi Liu, Haowei Gao, Jingxi Hu, Yuanhao Zou, Huizhong Zheng, Xiangjian He  
   *IWAIT 2024*. ([paper](files/IWAIT_Paper.pdf) / [poster](files/IWAIT_Poster.pdf))  
 
-- [**A Multi-Objective Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments**](/publication/2024-01-20-uav-path-planning)  
+- [**A Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments**](/publication/2024-01-20-uav-path-planning)  
   **Yanming Chen**, Saeid Pourroostaei Ardakani  
-  *Under Review at IEEE Transactions on Transactions on Sustainable Computing*. ([preprint](files/FAR-UAV-2024.pdf))  
+  *IEEE Transactions on Sustainable Computing (Early Access)*. ([paper](https://ieeexplore.ieee.org/document/11457371) / DOI: [10.1109/TSUSC.2026.3678502](https://doi.org/10.1109/TSUSC.2026.3678502))  
 
 - [**The Efficacy of Biofeedback in Monitoring VR Cybersickness in the Context of Remote Collaboration**](/publication/2024-01-30-vr-cybersickness)  
   Yifan Yang, Xu Sun, Yaorun Zhang, Junsong Zhu, **Yanming Chen**, Chen Ye, Sheng Zhang, Canjun Yang  
