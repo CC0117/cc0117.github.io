@@ -41,9 +41,9 @@ My research interests broadly lie in AI for healthcare. I like to start with a r
 
 ## Outside research
 
-When I’m not coding or studying, I enjoy staying active!
+When I’m not coding or studying, I enjoy staying active! ⚽ 🎿 ⛰️
 
 - Yunnan Plateau Leopard Football Club, UNNC Football Excel Team
-- National Level 2 Football Athlete
+- National Level 2 Football Athlete (China)
 - Enjoy mountaineering and hiking
 - Skiing enthusiast
