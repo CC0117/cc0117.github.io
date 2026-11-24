@@ -2,9 +2,6 @@ main:
   - title: Home
     url: /
 
-  - title: Research
-    url: /experiences/
-
   - title: Publications
     url: /publications/
 

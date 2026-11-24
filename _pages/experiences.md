@@ -3,6 +3,7 @@ layout: academic
 title: "Research"
 description: "Yanming Chen’s research in environmental health, biomedical image analysis, and applied machine learning."
 permalink: /experiences/
+published: false
 author_profile: false
 ---
 
