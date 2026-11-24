@@ -1,54 +1,10 @@
 ---
-layout: archive
+layout: academic
 title: "Publications"
+description: "Research publications by Yanming Chen in medical imaging and reinforcement learning."
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
-  </div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- Bullet-style rendering grouped by category -->
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        <ul>
-        {% assign title_shown = true %}
-      {% endunless %}
-
-      <li>
-        <b><a href="{{ post.url | relative_url }}">{{ post.title }}</a></b><br/>
-        {% if post.excerpt %}
-          {{ post.excerpt | markdownify | strip | remove: '<p>' | remove: '</p>' }}<br/>
-        {% endif %}
-        {% if post.venue %}<i>{{ post.venue }}</i>.{% endif %}
-        {% if post.paperurl %} <a href="{{ post.paperurl }}" target="_blank">[PDF]</a>{% endif %}
-      </li>
-    {% endfor %}
-    {% if title_shown %}</ul>{% endif %}
-  {% endfor %}
-{% else %}
-  <ul>
-    {% for post in site.publications reversed %}
-      <li>
-        <b><a href="{{ post.url | relative_url }}">{{ post.title }}</a></b><br/>
-        {% if post.excerpt %}
-          {{ post.excerpt | markdownify | strip | remove: '<p>' | remove: '</p>' }}<br/>
-        {% endif %}
-        {% if post.venue %}<i>{{ post.venue }}</i>.{% endif %}
-        {% if post.paperurl %} <a href="{{ post.paperurl }}" target="_blank">[PDF]</a>{% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-{% endif %}
+<h1>Publications</h1>
+{% include academic-publications.html %}

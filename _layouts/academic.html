@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="{{ site.locale | slice: 0, 2 }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.url != "/" %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <nav class="shell site-nav" aria-label="Main navigation">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <ul>
+        {% for item in site.data.navigation.main %}
+          <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | escape }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content" class="shell main-content{% if page.url == '/' %} home{% endif %}">
+    {{ content }}
+  </main>
+
+  <footer class="shell site-footer">
+    <span>{{ site.title | escape }} · New Haven, CT</span>
+    <a href="mailto:{{ site.author.email | escape }}">{{ site.author.email | escape }}</a>
+  </footer>
+</body>
+</html>

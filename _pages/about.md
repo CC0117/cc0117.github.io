@@ -1,51 +1,36 @@
 ---
+layout: academic
 permalink: /
-title: "Hi there, this is Yanming! 👋"
-author_profile: true
-redirect_from: 
+title: "Yanming Chen"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am currently pursuing an M.S. in Health Informatics at Yale University. Before Yale, I received my B.Sc. in Computer Science from the University of Nottingham Ningbo China. Previously, I worked as a Research Assistant in the CVIP Lab, where I collaborated with [Prof. Xiangjian He](https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&hl=en) and [Dr. Saeid Pourroostaei Ardakani](https://scholar.google.com/citations?user=3OeHr8gAAAAJ&hl=en).  
+<div class="intro" markdown="0">
+  <div class="intro-copy">
+    <h1>Yanming Chen</h1>
+    <p class="affiliation">M.S. student in <a href="https://ysph.yale.edu/school-of-public-health/graduate-programs/master-of-science-in-public-health-msph/health-informatics/">Health Informatics</a> · Yale University</p>
+    <p>I work with <a href="https://medicine.yale.edu/profile/kei-cheung/">Kei-Hoi Cheung</a> at Yale. I’m interested in how machine learning and statistics can help answer practical questions in health.</p>
+    <p>Before Yale, I studied computer science at the <a href="https://www.nottingham.edu.cn/en/about/who-we-are.aspx">University of Nottingham Ningbo China</a>, where I worked on medical image analysis in the Computer Vision and Intelligent Perception Lab.</p>
+    <ul class="profile-links" aria-label="Contact and profiles">
+      <li><a href="mailto:{{ site.author.email | escape }}">Email</a></li>
+      <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+      <li><a href="https://github.com/CC0117">GitHub</a></li>
+    </ul>
+  </div>
+  <img class="portrait" src="{{ '/images/profile-web.jpg' | relative_url }}" width="480" height="480" alt="Portrait of Yanming Chen">
+</div>
 
-My research focuses on biomedical image analysis and AI-driven solutions for healthcare. I am particularly interested in developing general-purpose vision architectures and clinical informatics methods that can advance medical diagnostics and healthcare accessibility.  
+## Research interests
 
-<!-- 
-## **Research Interests**
-1. Biomedical Image Analysis.
-2. General-Purpose Vision Architectures: Exploring transformer-inspired models to understand how overall architectural design, rather than specific token-mixing mechanisms, drives performance in medical image segmentation task and beyond.   -->
+My main interests are biomedical informatics, medical image analysis, and AI for healthcare. I’m especially interested in building models that can be reused across imaging tasks and tested on data from sources they weren’t trained on.
 
-## **News** 📢
+My current capstone uses watershed data and satellite imagery to study where PFAS sampling in U.S. rivers and lakes would be most useful. Outside my current research, I enjoy learning about the foundations of reinforcement learning and game theory.
 
-- **[Feb 2025]** Invited to submit MambaVesselNet to a Special Issue of ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM).
+[More about my research]({{ '/experiences/' | relative_url }})
 
-- **[Jul 2025]** *MambaVesselNet++: A Hybrid CNN-Mamba Architecture for Medical Image Segmentation* accepted for publication in ACM TOMM. 🎉  
+## Publications
 
-- **[Mar 2026]** *A Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments* published in *IEEE Transactions on Sustainable Computing*. 🎉  
-
-
-<!-- - **[Jul 2025]** Received a minor revision decision for MambaVesselNet++ from ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM). -->
-
-
-## **Publications**
-
-- [**MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation**](/publication/2024-12-3-mamba-vesselnet)  
-  **Yanming Chen**, Ziyu Liu, Xiangjian He  
-  *ACM Multimedia Asia 2024*. ([paper](files/MambaVesselNet.pdf))  
-
-- [**MambaVesselNet++: A Hybrid CNN-Mamba Architecture for Medical Image Segmentation**](/publication/2024-01-20-uav-path-planning)  
-  Qing Xu, **Yanming Chen**, Yue Li, Ziyu Liu, Zhenye Lou, Yixuan Zhang, Huizhong Zheng, Xiangjian He  
-  *ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)*. (Published — DOI: [10.1145/3757324](https://doi.org/10.1145/3757324))  
-
-- [**Multi-Modality Semi-Supervised Learning for Ophthalmic Biomarkers Detection**](/publication/2024-01-10-multimodality-learning)  
-  **Yanming Chen**, Chenxi Niu, Chen Ye, Shengji Jin, Yue Li, Chi Xu, Keyi Liu, Haowei Gao, Jingxi Hu, Yuanhao Zou, Huizhong Zheng, Xiangjian He  
-  *IWAIT 2024*. ([paper](files/IWAIT_Paper.pdf) / [poster](files/IWAIT_Poster.pdf))  
-
-- [**A Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments**](/publication/2024-01-20-uav-path-planning)  
-  **Yanming Chen**, Saeid Pourroostaei Ardakani  
-  *IEEE Transactions on Sustainable Computing (Early Access)*. ([paper](https://ieeexplore.ieee.org/document/11457371) / DOI: [10.1109/TSUSC.2026.3678502](https://doi.org/10.1109/TSUSC.2026.3678502))  
-
-- [**The Efficacy of Biofeedback in Monitoring VR Cybersickness in the Context of Remote Collaboration**](/publication/2024-01-30-vr-cybersickness)  
-  Yifan Yang, Xu Sun, Yaorun Zhang, Junsong Zhu, **Yanming Chen**, Chen Ye, Sheng Zhang, Canjun Yang  
-  <!-- *Under Review at CSCW 2025*.   -->
+{% include academic-publications.html %}

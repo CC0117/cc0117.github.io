@@ -1,0 +1,11 @@
+<ul class="publications">
+  {% for paper in site.data.academic_publications %}
+    <li>
+      <a class="publication-title" href="{{ paper.doi | escape }}">{{ paper.title | escape }}</a>
+      <span class="publication-authors">
+        {% for author in paper.authors %}{% if author == site.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+      </span>
+      <span class="publication-venue"><em>{{ paper.venue | escape }}</em>, {{ paper.year }}{% if paper.details %}, {{ paper.details | escape }}{% endif %}.{% if paper.pdf %} <a href="{{ paper.pdf | relative_url }}" aria-label="PDF: {{ paper.title | escape }}">PDF</a>{% endif %}{% if paper.poster %} · <a href="{{ paper.poster | relative_url }}" aria-label="Poster: {{ paper.title | escape }}">Poster</a>{% endif %}</span>
+    </li>
+  {% endfor %}
+</ul>

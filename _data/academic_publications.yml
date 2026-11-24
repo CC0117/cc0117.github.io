@@ -1,0 +1,29 @@
+- year: 2026
+  title: "A Reinforcement Learning Framework for UAV Path Planning Automation in Complex Fire and Rescue Environments"
+  authors: [Yanming Chen, Saeid Pourroostaei Ardakani]
+  venue: IEEE Transactions on Sustainable Computing
+  details: "11(3), 266–277"
+  doi: https://doi.org/10.1109/TSUSC.2026.3678502
+
+- year: 2025
+  title: "MambaVesselNet++: A Hybrid CNN-Mamba Architecture for Medical Image Segmentation"
+  authors: [Qing Xu, Yanming Chen, Yue Li, Ziyu Liu, Zhenye Lou, Yixuan Zhang, Huizhong Zheng, Xiangjian He]
+  venue: "ACM Transactions on Multimedia Computing, Communications and Applications"
+  doi: https://doi.org/10.1145/3757324
+
+- year: 2024
+  title: "MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation"
+  authors: [Yanming Chen, Ziyu Liu, Xiangjian He]
+  venue: ACM Multimedia Asia
+  details: "pp. 1–7"
+  doi: https://doi.org/10.1145/3696409.3700231
+  pdf: /files/MambaVesselNet.pdf
+
+- year: 2024
+  title: Multimodality semisupervised learning for ophthalmic biomarkers detection
+  authors: [Yanming Chen, Chenxi Niu, Chen Ye, Shengji Jin, Yue Li, Chi Xu, Keyi Liu, Haowei Gao, Jingxi Hu, Yuanhao Zou, Huizhong Zheng, Xiangjian He]
+  venue: International Workshop on Advanced Imaging Technology (IWAIT)
+  details: "Proc. SPIE 13164, 1316433"
+  doi: https://doi.org/10.1117/12.3019655
+  pdf: /files/IWAIT_Paper.pdf
+  poster: /files/IWAIT_Poster.pdf
