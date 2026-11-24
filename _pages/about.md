@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="intro" markdown="0">
   <div class="intro-copy">
-    <h1>Hi there, this is Yanming! 👋</h1>
+    <h1>Yanming Chen</h1>
     <p class="affiliation">M.S. student in <a href="https://ysph.yale.edu/school-of-public-health/graduate-programs/master-of-science-in-public-health-msph/health-informatics/">Health Informatics</a> · Yale University</p>
     <p>At Yale, I work with <a href="https://medicine.yale.edu/profile/kei-cheung/">Professor Kei-Hoi Cheung</a>. I’m interested in how machine learning and statistics can help answer practical questions in health.</p>
     <p>Before Yale, I received my B.Sc. in Computer Science from the <a href="https://www.nottingham.edu.cn/en/about/who-we-are.aspx">University of Nottingham Ningbo China</a>. I worked as a Research Assistant in the Computer Vision and Intelligent Perception Lab, where <a href="https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&amp;hl=en">Professor Xiangjian He</a> supervised my research on medical image analysis. I also worked on a separate project on UAV path planning under the supervision of <a href="https://scholar.google.com/citations?user=3OeHr8gAAAAJ&amp;hl=en">Professor Saeid Pourroostaei Ardakani</a>.</p>
@@ -39,11 +39,11 @@ My research interests broadly lie in AI for healthcare. I like to start with a r
 
 {% include academic-publications.html %}
 
-## Hobbies 🎉
+## Outside research
 
-When I'm not coding or studying, I enjoy staying active! 🏃‍♂️🌟
+When I’m not coding or studying, I enjoy staying active!
 
-- **🏅** Member, Yunnan Plateau Leopard Football Club, UNNC Football Excel Team
-- **⚽ [National Level 2 Football Athlete](/files/football_certificate.pdf)**
-- **⛰️** Enjoy mountaineering and hiking
-- **🎿** Skiing enthusiast
+- Yunnan Plateau Leopard Football Club, UNNC Football Excel Team
+- National Level 2 Football Athlete
+- Enjoy mountaineering and hiking
+- Skiing enthusiast

@@ -60,7 +60,7 @@ a:focus-visible {
 
 .site-nav a { text-decoration: none; }
 .site-nav a:hover, .site-nav [aria-current="page"] { text-decoration: underline; }
-.site-name { color: var(--ink); font-weight: 650; }
+.site-name { color: var(--ink); }
 
 .site-nav ul, .profile-links {
   display: flex;
