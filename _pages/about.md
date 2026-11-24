@@ -17,6 +17,9 @@ redirect_from:
     <ul class="profile-links" aria-label="Contact and profiles">
       <li><a href="mailto:{{ site.author.email | escape }}">Email</a></li>
       <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+      {% if site.author.googlescholar %}
+        <li><a href="{{ site.author.googlescholar | escape }}">Google Scholar</a></li>
+      {% endif %}
       <li><a href="https://github.com/CC0117">GitHub</a></li>
     </ul>
   </div>
