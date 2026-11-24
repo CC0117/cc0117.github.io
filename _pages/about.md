@@ -13,7 +13,7 @@ redirect_from:
     <h1>Yanming Chen</h1>
     <p class="affiliation">M.S. student in <a href="https://ysph.yale.edu/school-of-public-health/graduate-programs/master-of-science-in-public-health-msph/health-informatics/">Health Informatics</a> · Yale University</p>
     <p>I work with <a href="https://medicine.yale.edu/profile/kei-cheung/">Professor Kei-Hoi Cheung</a> at Yale. I’m interested in how machine learning and statistics can help answer practical questions in health.</p>
-    <p>Before Yale, I studied computer science at the <a href="https://www.nottingham.edu.cn/en/about/who-we-are.aspx">University of Nottingham Ningbo China</a>, where I worked on medical image analysis in the Computer Vision and Intelligent Perception Lab under <a href="https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&amp;hl=en">Professor Xiangjian He</a> and on UAV path planning under <a href="https://scholar.google.com/citations?user=3OeHr8gAAAAJ&amp;hl=en">Professor Saeid Pourroostaei Ardakani</a>.</p>
+    <p>Before Yale, I studied computer science at the <a href="https://www.nottingham.edu.cn/en/about/who-we-are.aspx">University of Nottingham Ningbo China</a>, where <a href="https://scholar.google.com.au/citations?user=BiBXGfIAAAAJ&amp;hl=en">Professor Xiangjian He</a> supervised my research on medical image analysis in the Computer Vision and Intelligent Perception Lab. <a href="https://scholar.google.com/citations?user=3OeHr8gAAAAJ&amp;hl=en">Professor Saeid Pourroostaei Ardakani</a> was my supervisor for a separate project on UAV path planning.</p>
     <ul class="profile-links" aria-label="Contact and profiles">
       <li><a href="mailto:{{ site.author.email | escape }}">Email</a></li>
       <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
@@ -38,3 +38,7 @@ My research interests broadly lie in AI for healthcare. I like to start with a r
 ## Publications
 
 {% include academic-publications.html %}
+
+## Outside of research
+
+When I’m not coding or studying, I like playing football (soccer), skiing, and surfing.
